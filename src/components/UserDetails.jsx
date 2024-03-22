@@ -1,6 +1,5 @@
 import DeleteAllUsers from "./DeleteAllUsers";
 import styled from "styled-components";
-// import store from "../store";
 
 const UserDetails = () => {
   return (
@@ -10,10 +9,6 @@ const UserDetails = () => {
           <div className="admin-subtitle">List of user Details</div>
           <button className="btn add-btn">Add new user</button>
         </div>
-        <ul>
-          {/* <li>hii</li>
-          <li>hiiiiii</li> */}
-        </ul>
         <hr />
         <DeleteAllUsers />
       </div>
