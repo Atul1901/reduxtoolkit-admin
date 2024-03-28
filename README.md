@@ -6,3 +6,9 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+in this project i have created the admin panel. 
+Here in the admi panel we are adding the name, deleting the perticular umber with the help of the delte button and also deleting all at once
+this is for learning the reduxtoolkit, here i have created the user slice and user reducer function. and used a chance library for getting 
+different names while adding.
+
