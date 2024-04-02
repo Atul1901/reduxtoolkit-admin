@@ -2,10 +2,12 @@ import DeleteAllUsers from "./DeleteAllUsers";
 import styled from "styled-components";
 import { fakeUSerData } from "../api/api";
 import { useDispatch } from "react-redux";
+//addUser is a reducer function inside user slice
 import { addUser } from "../store/slices/UserSlice";
 import DisplayUser from "./DisplayUser";
 
 const UserDetails = () => {
+  //to call the reducer function of a slice, we use to update the data
   const dispatch = useDispatch();
 
   const addUsers = (payload) => {

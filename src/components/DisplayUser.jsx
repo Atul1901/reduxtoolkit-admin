@@ -6,6 +6,8 @@ import { removeUser } from "../store/slices/UserSlice";
 
 const DisplayUser = () => {
   const dispatch = useDispatch();
+
+  //use to fetch the data from redux
   const data = useSelector((state) => {
     return state.users;
   });
